@@ -1,0 +1,63 @@
+/* General */
+* { box-sizing: border-box; }
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*player*/
+
+.player{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 2px 2px 1rem black;
+   
+    border-radius: 12px;
+    max-width: 1280px;
+    min-width: 320px;
+
+}
+video{
+    width: 100%;
+    cursor: pointer;
+}
+/*controls*/
+
+.control>*{
+    cursor: pointer;
+}
+.control{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+
+}
+.progress{
+    flex-grow: 1;
+   
+}
+.play{
+    background-color:transparent;
+    border: none;
+   
+}
+
+.stop{
+    background-color: transparent;
+    border: none;
+}
+.timestamp{
+    font-size: 0.2rem;
+}
+
+i{
+    font-size: 2rem;
+    
+}
